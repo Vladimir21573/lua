@@ -1012,7 +1012,7 @@ if imgui.Button(u8('/time + /id                 ')) then
 
 function main()
 
-  sampRegisterChatCommand('mh', function() window_state[0] = not window_state[0] end)
+  sampRegisterChatCommand('mp', function() window_state[0] = not window_state[0] end)
 
   
 
